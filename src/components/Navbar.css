@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: bisque;
+  padding: 15px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.cart-button {
+  background: black;
+  color: bisque;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.cart-button:hover {
+  background: rgb(255, 145, 0);
+  color: black;
+}
